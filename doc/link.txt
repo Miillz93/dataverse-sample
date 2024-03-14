@@ -1,0 +1,9 @@
+https://crmchap.co.uk/what-is-unsecuresecure-configuration-on-a-dynamics-crm365-for-enterprise-plugin/
+https://crmchap.co.uk/utilising-prepost-entity-images-in-a-dynamics-crm-plugin/
+
+
+### Early Bound
+https://learn.microsoft.com/en-us/power-apps/developer/data-platform/org-service/entity-operationshttps://learn.microsoft.com/en-us/power-apps/developer/data-platform/org-service/early-bound-programming#early-bound
+
+### Create Entity 
+https://learn.microsoft.com/en-us/power-apps/developer/data-platform/org-service/create-custom-entity

@@ -27,11 +27,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="account\" />
+    <Folder Include="entity\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="account\create.ps1" />
-    <Compile Include="account\Delete.ps1" />
+    <Compile Include="entity\Delete.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\PowerShell Tools for Visual Studio\PowerShellTools.targets" Condition="Exists('$(MSBuildExtensionsPath)\PowerShell Tools for Visual Studio\PowerShellTools.targets')" />
 </Project>

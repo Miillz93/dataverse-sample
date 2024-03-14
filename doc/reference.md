@@ -13,7 +13,7 @@
 
 ### Model Builder
 
-pac modelbuilder build --outdirectory . --settingsTemplateFile modelbuilder.json --environment {envGuid}
+pac modelbuilder build --outdirectory . --settingsTemplateFile ./setting/modelbuilder.json --environment {envGuid}
 
 ### Solution
 

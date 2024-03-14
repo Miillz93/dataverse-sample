@@ -9,10 +9,10 @@
     <Import_RootNamespace>shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)modelbuilder.json" />
+    <Folder Include="$(MSBuildThisFileDirectory)logic\" />
+    <Folder Include="$(MSBuildThisFileDirectory)repository\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)EntityOptionSetEnum.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)SampleContext.cs" />
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
   </ItemGroup>
 </Project>

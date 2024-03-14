@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>00e1a28f-5e57-4052-b10d-4f31d6fd08d2</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Models</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\entities\account.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\entities\contact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\entities\opportunity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\EntityOptionSetEnum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\budgetstatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\initialcommunication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\msdyn_opportunitygradeoptset.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\msdyn_opportunityscoretrendoptset.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\mso_origincode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\need.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\opportunity_salesstage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\powerpagelanguages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\purchaseprocess.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\purchasetimeframe.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\qooi_pricingerrorcode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\optionsets\qooi_skippricecalculation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dataverse\SampleContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)dataverse\setting\modelbuilder.json" />
+  </ItemGroup>
+</Project>

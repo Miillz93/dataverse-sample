@@ -1,0 +1,47 @@
+using System;
+using shared.configuration;
+
+namespace common
+{
+    /// <summary>
+    /// Plugin development guide: https://docs.microsoft.com/powerapps/developer/common-data-service/plug-ins
+    /// Best practices and guidance: https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/business-logic/
+    /// </summary>
+    public class Plugin1 : PluginBase
+    {
+        public Plugin1(string unsecureConfiguration, string secureConfiguration)
+            : base(typeof(Plugin1))
+        {
+            // TODO: Implement your custom configuration handling
+            // https://docs.microsoft.com/powerapps/developer/common-data-service/register-plug-in#set-configuration-data
+        }       env 
+
+        // Entry point for custom business logic execution
+        protected override void ExecuteDataversePlugin(ILocalPluginContext localPluginContext)
+        {
+            if (localPluginContext == null)
+            {
+                throw new ArgumentNullException(nameof(localPluginContext));
+            }
+
+            var context = localPluginContext.PluginExecutionContext.PostEntityImages;
+
+            // TODO: Implement your custom business logic
+
+            // Check for the entity on which the plugin would be registered
+            //if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
+            //{
+            //    var entity = (Entity)context.InputParameters["Target"];
+             //   var service = localPluginContext.PluginUserService;
+             //   var target = localPluginContext.Target;
+             //   var entityImage = localPluginContext.GetPluginImage("preImage", "");
+
+            //    // Check for entity name on which this plugin would be registered
+            //    if (entity.LogicalName == "account")
+            //    {
+
+            //    }
+            //}
+        }
+    }
+}
