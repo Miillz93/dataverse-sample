@@ -14,6 +14,10 @@
     <ProjectReference Include="..\..\provider\Shared.Provider.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Endpoint\" />
+  </ItemGroup>
+
   <Import Project="..\..\models\models.projitems" Label="Shared" />
 
 </Project>

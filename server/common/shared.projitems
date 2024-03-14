@@ -9,8 +9,8 @@
     <Import_RootNamespace>shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)logic\" />
-    <Folder Include="$(MSBuildThisFileDirectory)repository\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Logic\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Repository\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)README.md" />

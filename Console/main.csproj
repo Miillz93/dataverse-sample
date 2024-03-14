@@ -11,4 +11,8 @@
     <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client" Version="1.1.17" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Entity\" />
+  </ItemGroup>
+
 </Project>

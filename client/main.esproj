@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.271090-alpha">
   <ItemGroup>
-    <Folder Include="components\" />
-    <Folder Include="src\entity\" />
-    <Folder Include="src\" />
+    <Folder Include="Components\" />
+    <Folder Include="Src\" />
   </ItemGroup>
 </Project>
